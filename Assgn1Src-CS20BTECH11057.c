@@ -28,7 +28,7 @@ int main(int argc, char **argv)
         // Child process
         while (num > 1)
         {
-            printf("%d ", num);
+            printf("%d, ", num);
             if (num % 2 == 0)
                 num = num / 2;
             else
